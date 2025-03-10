@@ -1,12 +1,12 @@
 import { ethers } from "hardhat";
 
 async function main() {
-  const Collin = await ethers.getContractFactory("Collin");
-  const collin = await Collin.deploy();
+  const Disperse = await ethers.getContractFactory("Disperse");
+  const disperse = await Disperse.deploy();
 
-  await collin.deployed();
+  await disperse.deployed();
 
-  console.log(`Collin token deployed to: ${collin.address}`);
+  console.log(`Collin token deployed to: ${disperse.address}`);
 }
 
 main().catch((error) => {
