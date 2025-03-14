@@ -13,12 +13,12 @@ const INFURA_API_KEY = "https://eth-sepolia.g.alchemy.com/v2/oFfvEpXYjGo8Nj4QQIk
 // To export your private key from Metamask, open Metamask and
 // go to Account Details > Export Private Key
 // Beware: NEVER put real Ether into testing accounts
-const SEPOLIA_PRIVATE_KEY = "36aaae2cf48f508043bcf2f5822affcab5fc5b8cd270254d5b4a1480f744ec2c";
+const SEPOLIA_PRIVATE_KEY = "0c729a909cee0064ffd8017f9e565189a1623ced853a96487448b2af0f2e9ffd";
 
 const ETHERSCAN_API_KEY="3WN93IHJ1RH8BAX2BPJ1SRGI9G1Q7CEF79";
 
 module.exports = {
-  solidity: "0.8.28",
+  solidity: "0.8.20",
   networks: {
     sepolia: {
       url: `${INFURA_API_KEY}`,
